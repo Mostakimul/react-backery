@@ -1,0 +1,10 @@
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(236, 153, 28, 0.377);
+  right: 10px;
+  padding: 30px;
+  border-radius: 50%;
+  color: white;
+  fill: black !important;
+  stroke: black !important;
+}
