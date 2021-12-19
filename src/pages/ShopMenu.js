@@ -1,10 +1,11 @@
 import React from 'react';
+import Layout from '../layout/Layout';
 
 const ShopMenu = () => {
   return (
-    <div>
+    <Layout>
       <h2>Our Menues</h2>
-    </div>
+    </Layout>
   );
 };
 
