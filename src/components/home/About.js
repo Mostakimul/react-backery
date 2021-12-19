@@ -36,7 +36,7 @@ const About = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d={ls.svg} />
             </svg>
             <div>
-              <h2 className="text-yellow-600 font-bold text-xl">{ls.heading}</h2>
+              <h2 className="text-yellow-600 font-semibold text-lg">{ls.heading}</h2>
               <p className="font-light text-gray-800">{ls.para}</p>
             </div>
           </div>
