@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .desk-nav {
+    @apply hover:bg-yellow-700 font-bold text-gray-700 hover:text-gray-50 py-1.5 px-3 rounded-lg transition duration-200;
+  }
+  .desk-nav-active {
+    @apply bg-yellow-600 hover:bg-yellow-700 font-bold text-gray-50 py-1.5 px-3 rounded-lg transition duration-200;
+  }
+  .mobile-nav {
+    @apply block bg-yellow-900 hover:bg-yellow-700 transition duration-300 mx-2 py-1.5 rounded-lg;
+  }
+  .mobile-nav-active {
+    @apply block bg-yellow-600 hover:bg-yellow-700 transition duration-300 mx-2 py-1.5 rounded-lg;
+  }
+}
