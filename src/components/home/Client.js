@@ -3,7 +3,7 @@ import React from 'react';
 const Client = () => {
   return (
     <div className="container py-10">
-      <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+      <div className="grid gap-5 grid-cols-6">
         <div className="mx-auto">
           <img
             src="/images/client-1.png"
