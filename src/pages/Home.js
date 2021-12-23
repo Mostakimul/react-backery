@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../components/home/About';
 import Client from '../components/home/Client';
+import { Gallery } from '../components/home/Gallery';
 import Hero from '../components/home/Hero';
 import Product from '../components/home/Product';
 import Services from '../components/home/Services';
@@ -23,6 +24,9 @@ const Home = () => {
       </section>
       <section>
         <Client />
+      </section>
+      <section className="bg-gray-100">
+        <Gallery />
       </section>
     </Layout>
   );
