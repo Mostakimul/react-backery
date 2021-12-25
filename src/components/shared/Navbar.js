@@ -30,7 +30,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-gray-50 flex justify-between items-center p-2 mt-2 rounded-lg">
+    <div className="container bg-gray-50 flex justify-between items-center p-2 mt-2 rounded-lg">
       {/* logo */}
       <div>
         <NavLink to="/" className="text-lg font-semibold font-jos">
