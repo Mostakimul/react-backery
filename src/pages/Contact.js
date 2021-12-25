@@ -6,8 +6,9 @@ import Layout from '../layout/Layout';
 const Contact = () => {
   return (
     <Layout>
-      <main className="bg-gray-100">
-        <section className="container py-10">
+      <main>
+        <h2 className="py-10 text-center font-bold text-2xl text-gray-700">Contact Us</h2>
+        <section className="container py-10 bg-gray-100">
           <div className="grid sm:grid-cols-8 md:grid-cols-12 gap-5">
             <div className="sm:col-span-5 md:col-span-7">
               <Form />

@@ -4,7 +4,7 @@ const DirectContact = () => {
   return (
     <div>
       <h2 className="uppercase font-semibold text-yellow-800">...Or, Contact us directly</h2>
-      <div className="text-gray-500">
+      <div className="text-gray-500 mt-5">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et dolore magna aliqua enim ad minim veniam.
