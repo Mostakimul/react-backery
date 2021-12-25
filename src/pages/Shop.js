@@ -66,6 +66,9 @@ const Shop = () => {
                 <p className="pt-2 pb-5 px-5 text-yellow-500 text-xl font-bold text-center">
                   $ {product.price}
                 </p>
+                <button className="bg-yellow-800 font-semibold uppercase text-gray-50 mb-5 text-center w-2/4 py-1 px-2 block mx-auto">
+                  Add to cart
+                </button>
               </div>
             ))}
           </div>
