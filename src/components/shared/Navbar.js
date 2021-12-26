@@ -29,6 +29,7 @@ const Navbar = () => {
     { name: 'Shop', to: '/shop' },
     { name: 'Contact', to: '/contact' },
     { name: 'Login', to: '/login' },
+    { name: 'Signup', to: '/register' },
   ];
 
   return (
