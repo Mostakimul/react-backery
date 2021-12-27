@@ -15,4 +15,15 @@
   .mobile-nav-active {
     @apply block bg-yellow-600 hover:bg-yellow-700 transition duration-300 mx-2 py-1.5 rounded-lg;
   }
+
+  /* Dashboard */
+  .dash-side-nav {
+    @apply block bg-yellow-900 hover:bg-yellow-700  px-5 py-3 rounded-lg shadow-lg text-gray-50 transition duration-300;
+  }
+  .dash-content {
+    @apply mt-5 bg-yellow-700 text-gray-50 p-5 rounded-lg shadow-lg;
+  }
+  .dash-mb-side {
+    @apply block bg-yellow-900 hover:bg-yellow-700  px-3 py-2 mx-2 rounded-lg shadow-lg text-gray-50 transition duration-300;
+  }
 }

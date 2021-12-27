@@ -3,6 +3,9 @@ import { Route, Routes } from 'react-router-dom';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import Contact from './pages/Contact';
+import AdminDashboard from './pages/Dashboard/Admin/AdminDashboard';
+import AllUsers from './pages/Dashboard/Admin/AllUsers';
+import Dashboard from './pages/Dashboard/Dashboard';
 import Home from './pages/Home';
 import Product from './pages/Product';
 import Shop from './pages/Shop';
@@ -21,6 +24,11 @@ function App() {
       <Route path="shop" element={<Shop />} />
       <Route path="menu" element={<Shopmenu />} />
       <Route path="product/:id" element={<Product />} />
+      <Route path="/dashboard" element={<Dashboard />}>
+        {/* nested routes */}
+        <Route path="/dashboard" element={<AdminDashboard />} />
+        <Route path="/dashboard/all-users" element={<AllUsers />} />
+      </Route>
     </Routes>
   );
 }
