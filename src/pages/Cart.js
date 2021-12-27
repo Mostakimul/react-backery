@@ -24,6 +24,12 @@ const Cart = () => {
               <td className="py-3 border border-collapse border-gray-300">1</td>
               <td className="py-3 border border-collapse border-gray-300">$4.50</td>
             </tr>
+            <tr className="bg-gray-200">
+              <td colSpan={3} className="py-3 font-semibold border border-collapse border-gray-300">
+                Grad Total
+              </td>
+              <td className="py-3 font-semibold border border-collapse border-gray-300">$ 4.50</td>
+            </tr>
           </tbody>
         </table>
         <div className="flex justify-end my-10">
